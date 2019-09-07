@@ -1,36 +1,34 @@
-
-
-body {
+@media screen and (max-width: 768px) {
+  .mountains {
+    display: none;
+  }
+  body {
     text-align: center;
-}
+  }
 
-h1 {
+  h1 {
     font-size: 4rem;
-}
+  }
 
-h2 {
+  h2 {
     font-size: 1.8rem;
-}
+  }
 
-.mountains {
-    width: 100%;
-}
-
-.intro {
+  .intro {
     width: 60%;
     font-size: 1rem;
-}
+  }
 
-.send-message {
+  .send-message {
     font-size: 1.1rem;
     font-weight: 100;
-}
+  }
 
-.imgBox {
+  .imgBox {
     width: 190px;
-}
+  }
 
-.secondContainer {
+  .secondContainer {
     width: 500px;
     min-height: 200px;
     background: #262626;
@@ -39,9 +37,9 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     padding-left: 50px;
-}
+  }
 
-.secondContainer .box {
+  .secondContainer .box {
     position: relative;
     width: 200px;
     height: 200px;
@@ -50,8 +48,13 @@ h2 {
     margin: 10px;
     box-sizing: border-box;
     display: inline-block;
-}
+  }
+  
+  .secondContainer .box .details {
+    display: none;
+  }
 
-.fourthContainer {
+  .fourthContainer {
     padding: 20px 0 20px;
+  }
 }
