@@ -1,0 +1,44 @@
+@media screen and (max-width: 770px) {
+    .mountains {
+        display: none;
+    }
+}
+
+.intro {
+    width: 80%;
+}
+
+.send-message {
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.imgBox {
+    width: 190px;
+}
+
+.secondContainer {
+    width: 500px;
+    min-height: 200px;
+    background: #262626;
+    margin: 70px auto 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.secondContainer .box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #6381a3;
+    border-radius: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.fourthContainer {
+    padding: 20px 0 20px;
+}
