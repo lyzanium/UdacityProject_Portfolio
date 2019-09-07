@@ -1,7 +1,5 @@
-@media screen and (max-width: 770px) {
-    .mountains {
-        display: none;
-    }
+.mountains {
+    display: none;
 }
 
 .intro {
