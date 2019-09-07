@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+a {
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+}
+.mountains {
+    display: none;
+}
+
+.intro {
+    width: 70%;
+    font-size: 0.8rem;
+}
+
+.secondContainer {
+    width: 320px;
+}
+
+
+.secondContainer .box {
+    width: 100px;
+    height: 100px;
+}
+
+.imgBox {
+    width: 90px;
+}
+
+.fourthContainer {
+    padding: 10px 0 5px;
+}
+
+.copyright {
+    font-size: 0.6rem;
+    padding-top: 5px;
+}
